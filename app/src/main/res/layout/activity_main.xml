@@ -19,7 +19,9 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/jerry_mouse"
         android:onClick="eraseTom"
-        android:alpha="0"/>
+        android:alpha="0"
+        android:scaleX="0"
+        android:scaleY="0"/>
 
     <ImageView
         android:id="@+id/tomCatImage"
